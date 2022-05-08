@@ -30,6 +30,7 @@ document.addEventListener("keyup",(e) => {
     flowController(keyPressed)
 })
 
+//Decides the calls for the functions according to key pressed
 function flowController(keyPressed){
     switch (keyPressed) {
         case "Enter":
@@ -89,6 +90,7 @@ function deleteLastLetter(){
     letterIndex -= 1
 }
 
+//Compares the actual and guessed word and mark the words with the colour according to the rules
 function helper() {
     let row = document.getElementsByClassName("letter-row")[6 - numberOfRemainingGuesses]
     let guessString = ''
@@ -163,6 +165,7 @@ function helper() {
     }
 }
 
+//Paints the keys of the virtual keboard on the screen
 function painterFunction(letter,letterColor){        
     let j = document.getElementById(letter);
     if(j.textContent === letter){
