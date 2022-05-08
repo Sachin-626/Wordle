@@ -6,18 +6,22 @@ Working of wordle:
 Implementation:
 
   i.	HTML: 
+  
     •	Created class “letter-row” for defining a row of five boxes which will contain the five-letter word.
     •	Class “letter-box” holds each letter of a word.
     •	Two buttons - New Game, View Answer (Do Work as their name suggests)
     •	Description Box- Displaying rules for the game
 
   ii.	CSS: 
+  
     •	Did the styling part for the different classes we made in html file
 
   iii.	Word.js:
+  
     •	Contains an array of five letter words that are valid in the game
 
   iv.	Script.js:
+  
     •	Contains the work flow of the entire application
     •	Function such as:
         1.	insertLetter- inserting letter in boxes by keyboard and clicks on the screen keyboard
