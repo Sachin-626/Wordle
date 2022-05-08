@@ -4,6 +4,7 @@ Working of wordle:
   It is a web application game where we have to guess a five-letter word in six guesses (Number of guesses can be altered by making few changes in the code). If any letter is present in both (Guessed word and Actual Word) the words then it is marked as yellow and if it is also at its correct position in actual word then it is marked as green. If we succeed to guess the word in six guesses, then a toast message will be displayed.
 
 Implementation:
+
   i.	HTML: 
     •	Created class “letter-row” for defining a row of five boxes which will contain the five-letter word.
     •	Class “letter-box” holds each letter of a word.
