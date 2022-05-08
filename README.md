@@ -24,6 +24,7 @@ Implementation:
   
     •	Contains the work flow of the entire application
     •	Function such as:
+    
         1.	insertLetter- inserting letter in boxes by keyboard and clicks on the screen keyboard
         2.	deleteLastLetter- delete the last letter inserted
         3.	helper- compares the guessed and actual word and marks the words as 
