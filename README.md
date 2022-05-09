@@ -38,7 +38,8 @@ Implementation:
     •	Event Listeners for keyboard keys and mouse clicks
     •	Randomly selected a word (used Math.Random function) from the array in Word.js which contains the five letter words.
 
-
+Running the Code:
+> Use Live Server (Extension for VS Code)
 
 
 
