@@ -32,6 +32,9 @@ document.addEventListener("keyup",(e) => {
 
 //Decides the calls for the functions according to key pressed
 function flowController(keyPressed){
+    if(numberOfRemainingGuesses == 0){
+        return
+    }
     switch (keyPressed) {
         case "Enter":
             helper()            //compare the word guessed with actual word and colours the 
@@ -100,7 +103,7 @@ function helper() {
         guessString += currentGuess[i]
     }
 
-    if (guessString.length != 5) {
+    if (currentGuess.length != 5) {
         alert("Not enough letters!")
         return
     }
